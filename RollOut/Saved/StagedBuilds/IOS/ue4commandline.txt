@@ -1,0 +1,1 @@
+../../../RollOut/RollOut.uproject  /Game/RollOut/Maps/Level1 -Messaging -SessionId=69DD727E4D0E03A8B65EB8AF199718DD -SessionOwner="Tellie689" -SessionName="Launch On Device" -iterative
