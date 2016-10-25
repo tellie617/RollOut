@@ -1,9 +1,9 @@
-﻿Log file open, 10/24/16 10:16:58
+﻿Log file open, 10/25/16 14:44:07
 LogInit:Display: Running engine for game: RollOut
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1313381787) SRandInit(-1313381787).
+LogInit:Display: RandInit(-360050557) SRandInit(-360050557).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.048744
+LogStats: Stats thread started at 0.056119
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -133,750 +133,111 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.10.24-17.16.59:004][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.24-17.16.59:004][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.10.24-17.16.59:014][  0]LogInit: Computer: DESKTOP-0VG6TED
-[2016.10.24-17.16.59:014][  0]LogInit: User: Tellie689
-[2016.10.24-17.16.59:014][  0]LogInit: CPU Page size=65536, Cores=2
-[2016.10.24-17.16.59:014][  0]LogInit: High frequency timer resolution =3.609379 MHz
-[2016.10.24-17.16.59:014][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2016.10.24-17.16.59:014][  0]LogMemory: Platform Memory Stats for Windows
-[2016.10.24-17.16.59:014][  0]LogMemory: Process Physical Memory: 255.96 MB used, 255.96 MB peak
-[2016.10.24-17.16.59:014][  0]LogMemory: Process Virtual Memory: 262.78 MB used, 262.78 MB peak
-[2016.10.24-17.16.59:014][  0]LogMemory: Physical Memory: 4382.87 MB used, 8144.07 MB total
-[2016.10.24-17.16.59:014][  0]LogMemory: Virtual Memory: 624.41 MB used, 134217728.00 MB total
-[2016.10.24-17.16.59:038][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.10.24-17.16.59:495][  0]LogD3D11RHI: D3D11 adapters:
-[2016.10.24-17.16.59:516][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
-[2016.10.24-17.16.59:516][  0]LogD3D11RHI:       2016/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2016.10.24-17.16.59:517][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.10.24-17.16.59:517][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.10.24-17.16.59:517][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.10.24-17.16.59:521][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.10.24-17.16.59:521][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
-[2016.10.24-17.16.59:521][  0]LogWindows: EnumDisplayDevices:
-[2016.10.24-17.16.59:521][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
-[2016.10.24-17.16.59:521][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2016.10.24-17.16.59:522][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2016.10.24-17.16.59:522][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2016.10.24-17.16.59:522][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2016.10.24-17.16.59:522][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
-[2016.10.24-17.16.59:522][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
-[2016.10.24-17.16.59:522][  0]LogD3D11RHI:      Driver Date: 8-1-2016
-[2016.10.24-17.16.59:522][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.10.24-17.16.59:534][  0]LogD3D11RHI: Async texture creation enabled
-[2016.10.24-17.16.59:544][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2016.10.24-17.16.59:544][  0]LogShaderCompilers: Guid format shader working directory is 39 characters bigger than the processId version (D:/RollOut/Intermediate/Shaders/WorkingDirectory/5696/).
-[2016.10.24-17.16.59:544][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TELLIE~1/AppData/Local/Temp/UnrealShaderWorkingDir/65B6E5814715D9CBED0545AB2DDC8F43/'.
-[2016.10.24-17.16.59:544][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.10.24-17.17.00:348][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.10.24-17.17.00:354][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.10.24-17.17.00:361][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.10.24-17.17.00:367][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.10.24-17.17.00:373][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.10.24-17.17.00:379][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.10.24-17.17.00:384][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.10.24-17.17.00:390][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.10.24-17.17.00:396][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.10.24-17.17.00:401][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.10.24-17.17.00:407][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.10.24-17.17.00:418][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.10.24-17.17.00:418][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.10.24-17.17.00:418][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.10.24-17.17.00:437][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.10.24-17.17.00:442][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.10.24-17.17.00:448][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2016.10.24-17.17.00:453][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.10.24-17.17.00:458][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.10.24-17.17.00:464][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.10.24-17.17.00:464][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.10.24-17.17.00:519][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.10.24-17.17.00:580][  0]LogDerivedDataCache: Loaded boot cache 0.06s 62MB C:/Users/Tellie689/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2016.10.24-17.17.00:580][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tellie689/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2016.10.24-17.17.00:580][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/RollOut/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.10.24-17.17.00:580][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.10.24-17.17.00:580][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/RollOut/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.10.24-17.17.00:580][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.10.24-17.17.00:594][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.10.24-17.17.00:606][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tellie689/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.10.24-17.17.00:758][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.24-17.17.00:760][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.10.24-17.17.00:832][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.10.24-17.17.00:832][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.10.24-17.17.00:832][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.10.24-17.17.00:886][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.10.24-17.17.01:161][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: rollout, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2348843349
-[2016.10.24-17.17.01:200][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
-[2016.10.24-17.17.01:228][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025498 seconds
-[2016.10.24-17.17.01:233][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
-[2016.10.24-17.17.01:233][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
-[2016.10.24-17.17.01:233][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.10.24-17.17.01:238][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.10.24-17.17.01:404][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.24-17.17.01:404][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.24-17.17.01:901][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2016.10.24-17.17.01:922][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.10.24-17.17.02:130][  0]SourceControl: Info Source control is disabled
-[2016.10.24-17.17.02:378][  0]LogEngine: Initializing Engine...
-[2016.10.24-17.17.02:379][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.10.24-17.17.02:495][  0]LogAIModule: Creating AISystem for world Untitled
-[2016.10.24-17.17.02:503][  0]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.10.24-17.17.02:517][  0]LogInit: FAudioDevice initialized.
-[2016.10.24-17.17.02:548][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/Tellie689/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2016.10.24-17.17.02:558][  0]LogInit: Texture streaming: Enabled
-[2016.10.24-17.17.02:576][  0]LogInit: Transaction tracking system initialized
-[2016.10.24-17.17.02:592][  0]BlueprintLog: New page: Editor Load
-[2016.10.24-17.17.02:648][  0]LocalizationService: Info Localization service is disabled
-[2016.10.24-17.17.02:706][  0]LogConsoleResponse:Display: 
-[2016.10.24-17.17.02:814][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2016.10.24-17.17.02:814][  0]LogCook:Display: Mobile HDR setting 1
-[2016.10.24-17.17.02:938][  0]LogFileCache: Scanning file cache for directory 'D:/RollOut/Content/' took 0.02s
-[2016.10.24-17.17.02:938][  0]Cmd: MAP LOAD FILE="D:/RollOut/Content/RollOut/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.10.24-17.17.02:939][  0]LightingResults: New page: Lighting Build
-[2016.10.24-17.17.02:941][  0]MapCheck: New page: Map Check
-[2016.10.24-17.17.02:941][  0]LightingResults: New page: Lighting Build
-[2016.10.24-17.17.03:131][  0]LogAIModule: Creating AISystem for world Level1
-[2016.10.24-17.17.03:136][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.10.24-17.17.03:137][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.10.24-17.17.03:166][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.616ms to complete.
-[2016.10.24-17.17.03:166][  0]LogFileHelpers: Loading map 'Level1' took 0.228
-[2016.10.24-17.17.03:294][  0]LogCollectionManager: Loaded 1 collections in 0.001413 seconds
-[2016.10.24-17.17.03:337][  0]LogFileCache: Scanning file cache for directory 'D:/RollOut/Saved/Collections/' took 0.01s
-[2016.10.24-17.17.03:337][  0]LogFileCache: Scanning file cache for directory 'D:/RollOut/Content/Developers/Tellie689/Collections/' took 0.01s
-[2016.10.24-17.17.03:337][  0]LogFileCache: Scanning file cache for directory 'D:/RollOut/Content/Collections/' took 0.01s
-[2016.10.24-17.17.03:337][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000006 seconds
-[2016.10.24-17.17.03:337][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
-[2016.10.24-17.17.03:350][  0]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2141 classes and 415 folders.
-[2016.10.24-17.17.03:356][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.10.24-17.17.03:356][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.10.24-17.17.03:357][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0011 seconds. Added 12 classes and 0 folders.
-[2016.10.24-17.17.03:363][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2016.10.24-17.17.03:399][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2016.10.24-17.17.03:402][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2016.10.24-17.17.03:439][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.10.24-17.17.03:444][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.10.24-17.17.03:470][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2016.10.24-17.17.03:470][  0]LogLoad: (Engine Initialization) Total time: 5.15 seconds
-[2016.10.24-17.17.03:470][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
-[2016.10.24-17.17.03:470][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.10.24-17.17.03:470][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.10.24-17.17.03:480][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.10.24-17.17.03:480][  0]LogOcInput: OculusInput pre-init called
-[2016.10.24-17.17.03:511][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.10.24-17.17.03:628][  0]LogRenderer: Reallocating scene render targets to support 772x352 (Frame:2).
-[2016.10.24-17.17.03:674][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/RollOut/Content/' took 0.18s
-[2016.10.24-17.17.03:686][  1]LogAssetRegistry: Asset discovery search completed in 2.5085 seconds
-[2016.10.24-17.17.03:686][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000008 seconds (found 0 objects)
-[2016.10.24-17.17.03:686][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000025 seconds (updated 0 objects)
-[2016.10.24-17.33.36:958][731]LogEditorFactories: Performing atomic reimport of [D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly.fbx]
-[2016.10.24-17.33.36:984][731]LogFbx: Loading FBX Scene from D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly.fbx
-[2016.10.24-17.33.36:994][731]LogFbx: FBX Scene Loaded Succesfully
-[2016.10.24-17.33.36:996][731]LogFbx: =================================================
-[2016.10.24-17.33.36:996][731]LogFbx: Dumping Node START [HouseFly] 
-[2016.10.24-17.33.36:996][731]LogFbx: 	Total Deformer Count 547011992.
-[2016.10.24-17.33.36:996][731]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.33.36:996][731]LogFbx: =================================================
-[2016.10.24-17.33.36:996][731]LogFbx: 	Attribute (Cube) Type (4).
-[2016.10.24-17.33.36:996][731]LogFbx: 		[Node Attribute Child 1] HouseFly (Type Mesh).
-[2016.10.24-17.33.36:996][731]LogFbx: Dumping Node END [HouseFly]
-[2016.10.24-17.33.36:996][731]LogFbx: =================================================
-[2016.10.24-17.33.36:996][731]LogFbx: Dumping Node START [LeftWing] 
-[2016.10.24-17.33.36:996][731]LogFbx: 	Total Deformer Count 547011992.
-[2016.10.24-17.33.36:996][731]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.33.36:996][731]LogFbx: =================================================
-[2016.10.24-17.33.36:996][731]LogFbx: 	Attribute (Plane) Type (4).
-[2016.10.24-17.33.36:996][731]LogFbx: 		[Node Attribute Child 1] LeftWing (Type Mesh).
-[2016.10.24-17.33.36:996][731]LogFbx: Dumping Node END [LeftWing]
-[2016.10.24-17.33.36:996][731]LogFbx: =================================================
-[2016.10.24-17.33.36:996][731]LogFbx: Dumping Node START [RightWing] 
-[2016.10.24-17.33.36:996][731]LogFbx: 	Total Deformer Count 547067520.
-[2016.10.24-17.33.36:996][731]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.33.36:996][731]LogFbx: =================================================
-[2016.10.24-17.33.36:996][731]LogFbx: 	Attribute (Plane.002) Type (4).
-[2016.10.24-17.33.36:996][731]LogFbx: 		[Node Attribute Child 1] RightWing (Type Mesh).
-[2016.10.24-17.33.36:996][731]LogFbx: Dumping Node END [RightWing]
-[2016.10.24-17.33.36:996][731]LogFbx: =================================================
-[2016.10.24-17.33.36:997][731]LogFbx: Dumping Node START [FlyLegs] 
-[2016.10.24-17.33.36:997][731]LogFbx: 	Total Deformer Count 547011992.
-[2016.10.24-17.33.36:997][731]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.33.36:997][731]LogFbx: =================================================
-[2016.10.24-17.33.36:997][731]LogFbx: 	Attribute (Cube.002) Type (4).
-[2016.10.24-17.33.36:997][731]LogFbx: 		[Node Attribute Child 1] FlyLegs (Type Mesh).
-[2016.10.24-17.33.36:997][731]LogFbx: Dumping Node END [FlyLegs]
-[2016.10.24-17.33.36:997][731]LogFbx: =================================================
-[2016.10.24-17.33.36:997][731]LogFbx: Dumping Node START [HouseFly] 
-[2016.10.24-17.33.36:997][731]LogFbx: 	Total Deformer Count 547011880.
-[2016.10.24-17.33.36:997][731]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.33.36:997][731]LogFbx: =================================================
-[2016.10.24-17.33.36:997][731]LogFbx: 	Attribute (Cube) Type (4).
-[2016.10.24-17.33.36:997][731]LogFbx: 		[Node Attribute Child 1] HouseFly (Type Mesh).
-[2016.10.24-17.33.36:997][731]LogFbx: Dumping Node END [HouseFly]
-[2016.10.24-17.33.36:997][731]LogFbx: =================================================
-[2016.10.24-17.33.36:997][731]LogFbx: Dumping Node START [LeftWing] 
-[2016.10.24-17.33.36:997][731]LogFbx: 	Total Deformer Count 547011880.
-[2016.10.24-17.33.36:997][731]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.33.36:997][731]LogFbx: =================================================
-[2016.10.24-17.33.36:997][731]LogFbx: 	Attribute (Plane) Type (4).
-[2016.10.24-17.33.36:997][731]LogFbx: 		[Node Attribute Child 1] LeftWing (Type Mesh).
-[2016.10.24-17.33.36:997][731]LogFbx: Dumping Node END [LeftWing]
-[2016.10.24-17.33.36:997][731]LogFbx: =================================================
-[2016.10.24-17.33.36:997][731]LogFbx: Dumping Node START [RightWing] 
-[2016.10.24-17.33.36:997][731]LogFbx: 	Total Deformer Count 547067520.
-[2016.10.24-17.33.36:997][731]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.33.36:997][731]LogFbx: =================================================
-[2016.10.24-17.33.36:997][731]LogFbx: 	Attribute (Plane.002) Type (4).
-[2016.10.24-17.33.36:997][731]LogFbx: 		[Node Attribute Child 1] RightWing (Type Mesh).
-[2016.10.24-17.33.36:997][731]LogFbx: Dumping Node END [RightWing]
-[2016.10.24-17.33.36:997][731]LogFbx: =================================================
-[2016.10.24-17.33.36:997][731]LogFbx: Dumping Node START [FlyLegs] 
-[2016.10.24-17.33.36:997][731]LogFbx: 	Total Deformer Count 547011880.
-[2016.10.24-17.33.36:997][731]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.33.36:997][731]LogFbx: =================================================
-[2016.10.24-17.33.36:997][731]LogFbx: 	Attribute (Cube.002) Type (4).
-[2016.10.24-17.33.36:997][731]LogFbx: 		[Node Attribute Child 1] FlyLegs (Type Mesh).
-[2016.10.24-17.33.36:997][731]LogFbx: Dumping Node END [FlyLegs]
-[2016.10.24-17.33.36:997][731]LogFbx: Valid bind pose for Pose (Cube) - HouseFly
-[2016.10.24-17.33.36:997][731]LogFbx: Valid bind pose for Pose (Plane) - HouseFly
-[2016.10.24-17.33.36:997][731]LogFbx: Valid bind pose for Pose (Plane.002) - HouseFly
-[2016.10.24-17.33.36:997][731]LogFbx: Valid bind pose for Pose (Cube.002) - HouseFly
-[2016.10.24-17.33.36:997][731]LogFbx: Triangulating skeletal mesh HouseFly
-[2016.10.24-17.33.37:029][731]LogFbx: Triangulating skeletal mesh LeftWing
-[2016.10.24-17.33.37:030][731]LogFbx: Triangulating skeletal mesh RightWing
-[2016.10.24-17.33.37:032][731]LogFbx: Triangulating skeletal mesh FlyLegs
-[2016.10.24-17.33.37:047][731]LogFbx:Warning: Bones digested - 8  Depth of hierarchy - 5
-[2016.10.24-17.33.37:073][731]LogSkeletalMesh: Section 0: 208 vertices, 1 active bones
-[2016.10.24-17.33.37:073][731]LogSkeletalMesh: Section 1: 24 vertices, 2 active bones
-[2016.10.24-17.33.37:073][731]LogSkeletalMesh: Section 2: 192 vertices, 1 active bones
-[2016.10.24-17.33.37:075][731]LogSkeletalMesh: Section 0: Material=0, 312 triangles
-[2016.10.24-17.33.37:075][731]LogSkeletalMesh: Section 1: Material=1, 24 triangles
-[2016.10.24-17.33.37:075][731]LogSkeletalMesh: Section 2: Material=2, 120 triangles
-[2016.10.24-17.33.37:076][731]LogEditorFactories: -- imported successfully
-[2016.10.24-17.34.23:477][242]LogRenderer: Reallocating scene render targets to support 772x520 (Frame:3758).
-[2016.10.24-17.34.25:747][493]LogRenderer: Reallocating scene render targets to support 772x556 (Frame:4009).
-[2016.10.24-17.34.56:654][ 16]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly.fbx)
-[2016.10.24-17.34.56:662][ 16]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2016.10.24-17.34.56:662][ 16]LogFbx: ItemName: NodeAttribute, ItemCount : 6
-[2016.10.24-17.34.56:662][ 16]LogFbx: ItemName: Geometry, ItemCount : 4
-[2016.10.24-17.34.56:662][ 16]LogFbx: ItemName: Model, ItemCount : 10
-[2016.10.24-17.34.56:662][ 16]LogFbx: ItemName: Pose, ItemCount : 4
-[2016.10.24-17.34.56:662][ 16]LogFbx: ItemName: Deformer, ItemCount : 21
-[2016.10.24-17.34.56:662][ 16]LogFbx: ItemName: Material, ItemCount : 3
-[2016.10.24-17.34.56:662][ 16]LogFbx: ItemName: AnimationStack, ItemCount : 2
-[2016.10.24-17.34.56:662][ 16]LogFbx: ItemName: AnimationLayer, ItemCount : 2
-[2016.10.24-17.34.56:662][ 16]LogFbx: ItemName: AnimationCurveNode, ItemCount : 36
-[2016.10.24-17.34.56:662][ 16]LogFbx: ItemName: AnimationCurve, ItemCount : 108
-[2016.10.24-17.34.56:666][ 16]LogFbx: Loading FBX Scene from D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly.fbx
-[2016.10.24-17.34.56:676][ 16]LogFbx: FBX Scene Loaded Succesfully
-[2016.10.24-17.35.02:602][ 16]LogFbx: Loading FBX Scene from D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly.fbx
-[2016.10.24-17.35.02:612][ 16]LogFbx: FBX Scene Loaded Succesfully
-[2016.10.24-17.35.02:614][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:614][ 16]LogFbx: Dumping Node START [HouseFly] 
-[2016.10.24-17.35.02:614][ 16]LogFbx: 	Total Deformer Count 1170490048.
-[2016.10.24-17.35.02:614][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.02:614][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:614][ 16]LogFbx: 	Attribute (Cube) Type (4).
-[2016.10.24-17.35.02:614][ 16]LogFbx: 		[Node Attribute Child 1] HouseFly (Type Mesh).
-[2016.10.24-17.35.02:614][ 16]LogFbx: Dumping Node END [HouseFly]
-[2016.10.24-17.35.02:614][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:614][ 16]LogFbx: Dumping Node START [LeftWing] 
-[2016.10.24-17.35.02:614][ 16]LogFbx: 	Total Deformer Count 1170490048.
-[2016.10.24-17.35.02:614][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.02:614][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:614][ 16]LogFbx: 	Attribute (Plane) Type (4).
-[2016.10.24-17.35.02:614][ 16]LogFbx: 		[Node Attribute Child 1] LeftWing (Type Mesh).
-[2016.10.24-17.35.02:614][ 16]LogFbx: Dumping Node END [LeftWing]
-[2016.10.24-17.35.02:614][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:614][ 16]LogFbx: Dumping Node START [RightWing] 
-[2016.10.24-17.35.02:614][ 16]LogFbx: 	Total Deformer Count 981470976.
-[2016.10.24-17.35.02:614][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.02:614][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:614][ 16]LogFbx: 	Attribute (Plane.002) Type (4).
-[2016.10.24-17.35.02:614][ 16]LogFbx: 		[Node Attribute Child 1] RightWing (Type Mesh).
-[2016.10.24-17.35.02:614][ 16]LogFbx: Dumping Node END [RightWing]
-[2016.10.24-17.35.02:614][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:614][ 16]LogFbx: Dumping Node START [FlyLegs] 
-[2016.10.24-17.35.02:614][ 16]LogFbx: 	Total Deformer Count 1170490048.
-[2016.10.24-17.35.02:614][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.02:614][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:614][ 16]LogFbx: 	Attribute (Cube.002) Type (4).
-[2016.10.24-17.35.02:614][ 16]LogFbx: 		[Node Attribute Child 1] FlyLegs (Type Mesh).
-[2016.10.24-17.35.02:614][ 16]LogFbx: Dumping Node END [FlyLegs]
-[2016.10.24-17.35.02:615][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:615][ 16]LogFbx: Dumping Node START [HouseFly] 
-[2016.10.24-17.35.02:615][ 16]LogFbx: 	Total Deformer Count 1170493800.
-[2016.10.24-17.35.02:615][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.02:615][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:615][ 16]LogFbx: 	Attribute (Cube) Type (4).
-[2016.10.24-17.35.02:615][ 16]LogFbx: 		[Node Attribute Child 1] HouseFly (Type Mesh).
-[2016.10.24-17.35.02:615][ 16]LogFbx: Dumping Node END [HouseFly]
-[2016.10.24-17.35.02:615][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:615][ 16]LogFbx: Dumping Node START [LeftWing] 
-[2016.10.24-17.35.02:615][ 16]LogFbx: 	Total Deformer Count 1170493800.
-[2016.10.24-17.35.02:615][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.02:615][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:615][ 16]LogFbx: 	Attribute (Plane) Type (4).
-[2016.10.24-17.35.02:615][ 16]LogFbx: 		[Node Attribute Child 1] LeftWing (Type Mesh).
-[2016.10.24-17.35.02:615][ 16]LogFbx: Dumping Node END [LeftWing]
-[2016.10.24-17.35.02:615][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:615][ 16]LogFbx: Dumping Node START [RightWing] 
-[2016.10.24-17.35.02:615][ 16]LogFbx: 	Total Deformer Count 981470976.
-[2016.10.24-17.35.02:615][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.02:615][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:615][ 16]LogFbx: 	Attribute (Plane.002) Type (4).
-[2016.10.24-17.35.02:615][ 16]LogFbx: 		[Node Attribute Child 1] RightWing (Type Mesh).
-[2016.10.24-17.35.02:615][ 16]LogFbx: Dumping Node END [RightWing]
-[2016.10.24-17.35.02:615][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:615][ 16]LogFbx: Dumping Node START [FlyLegs] 
-[2016.10.24-17.35.02:615][ 16]LogFbx: 	Total Deformer Count 1170493800.
-[2016.10.24-17.35.02:615][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.02:615][ 16]LogFbx: =================================================
-[2016.10.24-17.35.02:615][ 16]LogFbx: 	Attribute (Cube.002) Type (4).
-[2016.10.24-17.35.02:615][ 16]LogFbx: 		[Node Attribute Child 1] FlyLegs (Type Mesh).
-[2016.10.24-17.35.02:615][ 16]LogFbx: Dumping Node END [FlyLegs]
-[2016.10.24-17.35.02:615][ 16]LogFbx: Valid bind pose for Pose (Cube) - HouseFly
-[2016.10.24-17.35.02:615][ 16]LogFbx: Valid bind pose for Pose (Plane) - HouseFly
-[2016.10.24-17.35.02:615][ 16]LogFbx: Valid bind pose for Pose (Plane.002) - HouseFly
-[2016.10.24-17.35.02:615][ 16]LogFbx: Valid bind pose for Pose (Cube.002) - HouseFly
-[2016.10.24-17.35.02:615][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/FlyBody'
-[2016.10.24-17.35.02:615][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/FlyBody'
-[2016.10.24-17.35.02:619][ 16]LogMaterial: Missing cached shader map for material FlyBody, compiling. 
-[2016.10.24-17.35.02:639][ 16]LogFbx: Triangulating skeletal mesh HouseFly
-[2016.10.24-17.35.02:695][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/FlyWings'
-[2016.10.24-17.35.02:695][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/FlyWings'
-[2016.10.24-17.35.02:700][ 16]LogMaterial: Missing cached shader map for material FlyWings, compiling. 
-[2016.10.24-17.35.02:717][ 16]LogFbx: Triangulating skeletal mesh LeftWing
-[2016.10.24-17.35.02:722][ 16]LogFbx: Triangulating skeletal mesh RightWing
-[2016.10.24-17.35.02:726][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/FlyLegs'
-[2016.10.24-17.35.02:727][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/FlyLegs'
-[2016.10.24-17.35.02:732][ 16]LogMaterial: Missing cached shader map for material FlyLegs, compiling. 
-[2016.10.24-17.35.02:749][ 16]LogFbx: Triangulating skeletal mesh FlyLegs
-[2016.10.24-17.35.02:787][ 16]LogFbx:Warning: Bones digested - 8  Depth of hierarchy - 5
-[2016.10.24-17.35.02:798][ 16]LogSkeletalMesh: Section 0: 208 vertices, 1 active bones
-[2016.10.24-17.35.02:798][ 16]LogSkeletalMesh: Section 1: 24 vertices, 2 active bones
-[2016.10.24-17.35.02:799][ 16]LogSkeletalMesh: Section 2: 192 vertices, 1 active bones
-[2016.10.24-17.35.02:799][ 16]LogSkeletalMesh: Section 0: Material=0, 312 triangles
-[2016.10.24-17.35.02:799][ 16]LogSkeletalMesh: Section 1: Material=1, 24 triangles
-[2016.10.24-17.35.02:799][ 16]LogSkeletalMesh: Section 2: Material=2, 120 triangles
-[2016.10.24-17.35.02:800][ 16]LogMaterial:Warning: Material /Game/RollOut/Meshes/SkeletalMeshes/FlyBody.FlyBody needed to have new flag set bUsedWithSkeletalMesh !
-[2016.10.24-17.35.02:802][ 16]LogMaterial: Missing cached shader map for material FlyBody, compiling. 
-[2016.10.24-17.35.02:834][ 16]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.10.24-17.35.02:834][ 16]LogMaterial:Warning: Material /Game/RollOut/Meshes/SkeletalMeshes/FlyWings.FlyWings needed to have new flag set bUsedWithSkeletalMesh !
-[2016.10.24-17.35.02:836][ 16]LogMaterial: Missing cached shader map for material FlyWings, compiling. 
-[2016.10.24-17.35.02:875][ 16]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.10.24-17.35.02:875][ 16]LogMaterial:Warning: Material /Game/RollOut/Meshes/SkeletalMeshes/FlyLegs.FlyLegs needed to have new flag set bUsedWithSkeletalMesh !
-[2016.10.24-17.35.02:877][ 16]LogMaterial: Missing cached shader map for material FlyLegs, compiling. 
-[2016.10.24-17.35.02:916][ 16]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.10.24-17.35.02:916][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_PhysicsAsset'
-[2016.10.24-17.35.02:917][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_PhysicsAsset'
-[2016.10.24-17.35.02:917][ 16]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/RollOut/Meshes/SkeletalMeshes/HouseFly_PhysicsAsset.HouseFly_PhysicsAsset'
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node START [HouseFly] 
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Total Deformer Count 1275299784.
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Attribute (Cube) Type (4).
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node Attribute Child 1] HouseFly (Type Mesh).
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node END [HouseFly]
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node START [LeftWing] 
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Total Deformer Count 1275299784.
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Attribute (Plane) Type (4).
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node Attribute Child 1] LeftWing (Type Mesh).
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node END [LeftWing]
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node START [RightWing] 
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Total Deformer Count 1169974976.
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Attribute (Plane.002) Type (4).
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node Attribute Child 1] RightWing (Type Mesh).
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node END [RightWing]
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node START [FlyLegs] 
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Total Deformer Count 1275299784.
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Attribute (Cube.002) Type (4).
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node Attribute Child 1] FlyLegs (Type Mesh).
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node END [FlyLegs]
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node START [HouseFly] 
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Total Deformer Count 1275299840.
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Attribute (Cube) Type (4).
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node Attribute Child 1] HouseFly (Type Mesh).
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node END [HouseFly]
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node START [LeftWing] 
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Total Deformer Count 1275299840.
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Attribute (Plane) Type (4).
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node Attribute Child 1] LeftWing (Type Mesh).
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node END [LeftWing]
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node START [RightWing] 
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Total Deformer Count 1169974976.
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.03:036][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:036][ 16]LogFbx: 	Attribute (Plane.002) Type (4).
-[2016.10.24-17.35.03:036][ 16]LogFbx: 		[Node Attribute Child 1] RightWing (Type Mesh).
-[2016.10.24-17.35.03:036][ 16]LogFbx: Dumping Node END [RightWing]
-[2016.10.24-17.35.03:037][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:037][ 16]LogFbx: Dumping Node START [FlyLegs] 
-[2016.10.24-17.35.03:037][ 16]LogFbx: 	Total Deformer Count 1275299840.
-[2016.10.24-17.35.03:037][ 16]LogFbx: 		[Node 1] Armature (Type Skin).
-[2016.10.24-17.35.03:037][ 16]LogFbx: =================================================
-[2016.10.24-17.35.03:037][ 16]LogFbx: 	Attribute (Cube.002) Type (4).
-[2016.10.24-17.35.03:037][ 16]LogFbx: 		[Node Attribute Child 1] FlyLegs (Type Mesh).
-[2016.10.24-17.35.03:037][ 16]LogFbx: Dumping Node END [FlyLegs]
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(0) Armature
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(1) Bone
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(2) Bone_003
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(3) Bone_004
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(4) Bone_004_end
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(5) Bone_001
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(6) Bone_002
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(7) Bone_002_end
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(0) Armature
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(1) Bone
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(2) Bone_003
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(3) Bone_004
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(4) Bone_004_end
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(5) Bone_001
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(6) Bone_002
-[2016.10.24-17.35.03:037][ 16]LogFbx: SortedLinks :(7) Bone_002_end
-[2016.10.24-17.35.03:037][ 16]LogFbx: Parsing AnimStack Armature|Fly
-[2016.10.24-17.35.03:038][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly'
-[2016.10.24-17.35.03:038][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly'
-[2016.10.24-17.35.03:038][ 16]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly.HouseFly_Anim_Armature_Fly'
-[2016.10.24-17.35.03:057][ 16]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly.HouseFly_Anim_Armature_Fly
-[2016.10.24-17.35.03:059][ 16]LogFbx: Parsing AnimStack Armature|Idle
-[2016.10.24-17.35.03:060][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle'
-[2016.10.24-17.35.03:060][ 16]LogLinker:Warning: Can't find file '/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle'
-[2016.10.24-17.35.03:060][ 16]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle.HouseFly_Anim_Armature_Idle'
-[2016.10.24-17.35.03:086][ 16]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle.HouseFly_Anim_Armature_Idle
-[2016.10.24-17.35.03:091][ 16]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2016.10.24-17.35.03:091][ 16]FBXImport:Warning: Warning The following bones are missing from the bind pose:
-Bone.004_end  
-Bone.002_end  
-
-This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
-please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
-[2016.10.24-17.35.03:091][ 16]FBXImport:Warning: Warning The bone size is too small to create Physics Asset 'HouseFly_PhysicsAsset' from Skeletal Mesh 'HouseFly'. You will have to create physics asset manually. 
-[2016.10.24-17.35.07:575][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2016.10.24-17.35.15:393][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Meshes/SkeletalMeshes/HouseFly" FILE="D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly.uasset" SILENT=true
-[2016.10.24-17.35.15:423][259]LogSavePackage: Save=18.78ms
-[2016.10.24-17.35.15:423][259]LogSavePackage: Moving 'D:/RollOut/Saved/HouseFlyC528801745132FB3E9C0D39927CA9584.tmp' to 'D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly.uasset'
-[2016.10.24-17.35.15:425][259]LogSavePackage:Display: Finished SavePackage D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly.uasset
-[2016.10.24-17.35.27:305][653]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollOut/Maps/Level1' took 0.022
-[2016.10.24-17.35.27:314][653]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollOut/Meshes/SkeletalMeshes/FlyBody] ([1] browsable assets)...
-[2016.10.24-17.35.27:329][653]OBJ SavePackage:     Rendered thumbnail for [Material /Game/RollOut/Meshes/SkeletalMeshes/FlyBody.FlyBody]
-[2016.10.24-17.35.27:329][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollOut/Meshes/SkeletalMeshes/FlyBody]
-[2016.10.24-17.35.27:329][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Meshes/SkeletalMeshes/FlyBody" FILE="D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/FlyBody_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2016.10.24-17.35.27:344][653]LogSavePackage: Save=13.38ms
-[2016.10.24-17.35.27:344][653]LogSavePackage: Moving 'D:/RollOut/Saved/FlyBody_Auto194366D0B47C09C59BCF69EA2A4A1E1D4.tmp' to 'D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/FlyBody_Auto1.uasset'
-[2016.10.24-17.35.27:345][653]LogSavePackage:Display: Finished SavePackage D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/FlyBody_Auto1.uasset
-[2016.10.24-17.35.27:346][653]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollOut/Meshes/SkeletalMeshes/FlyWings] ([1] browsable assets)...
-[2016.10.24-17.35.27:357][653]OBJ SavePackage:     Rendered thumbnail for [Material /Game/RollOut/Meshes/SkeletalMeshes/FlyWings.FlyWings]
-[2016.10.24-17.35.27:357][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollOut/Meshes/SkeletalMeshes/FlyWings]
-[2016.10.24-17.35.27:357][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Meshes/SkeletalMeshes/FlyWings" FILE="D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/FlyWings_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2016.10.24-17.35.27:370][653]LogSavePackage: Save=11.12ms
-[2016.10.24-17.35.27:370][653]LogSavePackage: Moving 'D:/RollOut/Saved/FlyWings_Auto124C864E644670B702C49EDA2CA2B58B1.tmp' to 'D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/FlyWings_Auto1.uasset'
-[2016.10.24-17.35.27:371][653]LogSavePackage:Display: Finished SavePackage D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/FlyWings_Auto1.uasset
-[2016.10.24-17.35.27:372][653]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollOut/Meshes/SkeletalMeshes/FlyLegs] ([1] browsable assets)...
-[2016.10.24-17.35.27:384][653]OBJ SavePackage:     Rendered thumbnail for [Material /Game/RollOut/Meshes/SkeletalMeshes/FlyLegs.FlyLegs]
-[2016.10.24-17.35.27:384][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollOut/Meshes/SkeletalMeshes/FlyLegs]
-[2016.10.24-17.35.27:384][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Meshes/SkeletalMeshes/FlyLegs" FILE="D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/FlyLegs_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2016.10.24-17.35.27:396][653]LogSavePackage: Save=11.01ms
-[2016.10.24-17.35.27:396][653]LogSavePackage: Moving 'D:/RollOut/Saved/FlyLegs_Auto15E0B39F0401FCC90C5D0EC941722EA29.tmp' to 'D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/FlyLegs_Auto1.uasset'
-[2016.10.24-17.35.27:397][653]LogSavePackage:Display: Finished SavePackage D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/FlyLegs_Auto1.uasset
-[2016.10.24-17.35.27:398][653]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly] ([1] browsable assets)...
-[2016.10.24-17.35.27:410][653]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly.HouseFly_Anim_Armature_Fly]
-[2016.10.24-17.35.27:410][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly]
-[2016.10.24-17.35.27:429][653]LogSavePackage: Save=10.63ms
-[2016.10.24-17.35.27:429][653]LogSavePackage: Moving 'D:/RollOut/Saved/HouseFly_Anim_Armature_Fly_Auto1C12EA2474232465EACBE549D8A0D9C70.tmp' to 'D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly_Auto1.uasset'
-[2016.10.24-17.35.27:430][653]LogSavePackage:Display: Finished SavePackage D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly_Auto1.uasset
-[2016.10.24-17.35.27:431][653]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle] ([1] browsable assets)...
-[2016.10.24-17.35.27:443][653]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle.HouseFly_Anim_Armature_Idle]
-[2016.10.24-17.35.27:443][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle]
-[2016.10.24-17.35.27:455][653]LogSavePackage: Save=10.59ms
-[2016.10.24-17.35.27:455][653]LogSavePackage: Moving 'D:/RollOut/Saved/HouseFly_Anim_Armature_Idle_Auto19A2558A44CD97EEBEE1F1BAC68F35852.tmp' to 'D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle_Auto1.uasset'
-[2016.10.24-17.35.27:456][653]LogSavePackage:Display: Finished SavePackage D:/RollOut/Saved/Autosaves/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle_Auto1.uasset
-[2016.10.24-17.35.27:456][653]LogFileHelpers: Auto-saving content packages took 0.145
-[2016.10.24-17.35.35:862][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Meshes/SkeletalMeshes/FlyBody" FILE="D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/FlyBody.uasset" SILENT=true
-[2016.10.24-17.35.35:875][959]LogSavePackage: Save=11.08ms
-[2016.10.24-17.35.35:875][959]LogSavePackage: Moving 'D:/RollOut/Saved/FlyBody7F9DB5424FE0201EF438BB9B9FB996FF.tmp' to 'D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/FlyBody.uasset'
-[2016.10.24-17.35.35:880][959]LogSavePackage:Display: Finished SavePackage D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/FlyBody.uasset
-[2016.10.24-17.35.35:902][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Meshes/SkeletalMeshes/FlyLegs" FILE="D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/FlyLegs.uasset" SILENT=true
-[2016.10.24-17.35.35:914][959]LogSavePackage: Save=10.75ms
-[2016.10.24-17.35.35:914][959]LogSavePackage: Moving 'D:/RollOut/Saved/FlyLegs78C16FF5460AA06565CA908D7C0CA7E3.tmp' to 'D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/FlyLegs.uasset'
-[2016.10.24-17.35.35:920][959]LogSavePackage:Display: Finished SavePackage D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/FlyLegs.uasset
-[2016.10.24-17.35.35:940][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Meshes/SkeletalMeshes/FlyWings" FILE="D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/FlyWings.uasset" SILENT=true
-[2016.10.24-17.35.35:953][959]LogSavePackage: Save=11.04ms
-[2016.10.24-17.35.35:953][959]LogSavePackage: Moving 'D:/RollOut/Saved/FlyWings1978244C4C671EFFC1FE92B470B05434.tmp' to 'D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/FlyWings.uasset'
-[2016.10.24-17.35.35:958][959]LogSavePackage:Display: Finished SavePackage D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/FlyWings.uasset
-[2016.10.24-17.35.35:976][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly" FILE="D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly.uasset" SILENT=true
-[2016.10.24-17.35.35:988][959]LogSavePackage: Save=10.63ms
-[2016.10.24-17.35.35:988][959]LogSavePackage: Moving 'D:/RollOut/Saved/HouseFly_Anim_Armature_Fly9F806F454FCC7188CBAC0396E95A3972.tmp' to 'D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly.uasset'
-[2016.10.24-17.35.35:992][959]LogSavePackage:Display: Finished SavePackage D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Fly.uasset
-[2016.10.24-17.35.36:012][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle" FILE="D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle.uasset" SILENT=true
-[2016.10.24-17.35.36:024][959]LogSavePackage: Save=10.63ms
-[2016.10.24-17.35.36:024][959]LogSavePackage: Moving 'D:/RollOut/Saved/HouseFly_Anim_Armature_Idle33D179014731C293757D95990671CEA9.tmp' to 'D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle.uasset'
-[2016.10.24-17.35.36:026][959]LogSavePackage:Display: Finished SavePackage D:/RollOut/Content/RollOut/Meshes/SkeletalMeshes/HouseFly_Anim_Armature_Idle.uasset
-[2016.10.24-18.10.35:277][409]Cmd: QUIT_EDITOR
-[2016.10.24-18.10.35:331][409]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.10.24-18.10.35:353][409]LogExit: Preparing to exit.
-[2016.10.24-18.10.36:146][409]LogExit: Editor shut down
-[2016.10.24-18.10.36:146][409]LogExit: Transaction tracking system shut down
-[2016.10.24-18.10.36:292][409]LogObj: Freed 0b from 0 cluster array pools.
-[2016.10.24-18.10.36:292][409]LogExit: Object subsystem successfully closed.
-[2016.10.24-18.10.36:309][409]LogD3D11RHI: Shutdown
-[2016.10.24-18.10.36:309][409]LogD3D11RHI: CleanupD3DDevice
-[2016.10.24-18.10.36:364][409]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.10.24-18.10.36:376][409]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
-[2016.10.24-18.10.36:376][409]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
-[2016.10.24-18.10.36:376][409]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
-[2016.10.24-18.10.36:376][409]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
-[2016.10.24-18.10.36:376][409]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
-[2016.10.24-18.10.36:376][409]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
-[2016.10.24-18.10.36:378][409]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
-[2016.10.24-18.10.36:378][409]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
-[2016.10.24-18.10.36:378][409]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
-[2016.10.24-18.10.36:378][409]LogDirectoryWatcher: A directory notification for 'D:/RollOut/Content/Collections/' was aborted.
-[2016.10.24-18.10.36:378][409]LogDirectoryWatcher: A directory notification for 'D:/RollOut/Content/Developers/Tellie689/Collections/' was aborted.
-[2016.10.24-18.10.36:378][409]LogDirectoryWatcher: A directory notification for 'D:/RollOut/Saved/Collections/' was aborted.
-[2016.10.24-18.10.36:378][409]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
-[2016.10.24-18.10.36:378][409]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
-[2016.10.24-18.10.36:378][409]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
-[2016.10.24-18.10.36:378][409]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
-[2016.10.24-18.10.36:378][409]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
-[2016.10.24-18.10.36:378][409]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
-[2016.10.24-18.10.36:378][409]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module BspMode (218)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module Media (206)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module SessionServices (201)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
-[2016.10.24-18.10.36:379][409]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module MergeActors (187)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module SizeMap (186)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module TreeMap (185)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module XmlParser (177)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module Blutility (176)
-[2016.10.24-18.10.36:980][409]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
-[2016.10.24-18.10.36:981][409]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
-[2016.10.24-18.10.36:981][409]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
-[2016.10.24-18.10.36:981][409]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
-[2016.10.24-18.10.36:981][409]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
-[2016.10.24-18.10.36:981][409]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
-[2016.10.24-18.10.36:981][409]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
-[2016.10.24-18.10.36:981][409]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
-[2016.10.24-18.10.36:981][409]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
-[2016.10.24-18.10.36:981][409]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module AutomationController (165)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module Layers (163)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module Persona (158)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module Kismet (157)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module Toolbox (154)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module OutputLog (151)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module GammaUI (150)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module Documentation (149)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module Niagara (148)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module PortalServices (145)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
-[2016.10.24-18.10.37:035][409]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
-[2016.10.24-18.10.37:036][409]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
-[2016.10.24-18.10.37:036][409]LogModuleManager: Shutting down and abandoning module AIModule (140)
-[2016.10.24-18.10.37:036][409]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module SteamVR (135)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module OculusInput (131)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module CableComponent (129)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
-[2016.10.24-18.10.37:221][409]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module SourceControl (109)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module HotReload (101)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module MainFrame (100)
-[2016.10.24-18.10.37:222][409]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
-[2016.10.24-18.10.37:223][409]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
-[2016.10.24-18.10.37:225][409]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
-[2016.10.24-18.10.37:225][409]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
-[2016.10.24-18.10.37:326][409]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module Paper2D (93)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module VREditor (87)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module Sequencer (81)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module MessageLog (79)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module AssetTools (78)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module UMG (76)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module Slate (74)
-[2016.10.24-18.10.37:426][409]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
-[2016.10.24-18.10.37:429][409]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
-[2016.10.24-18.10.37:429][409]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
-[2016.10.24-18.10.37:429][409]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
-[2016.10.24-18.10.37:429][409]LogModuleManager: Shutting down and abandoning module Networking (68)
-[2016.10.24-18.10.37:429][409]LogModuleManager: Shutting down and abandoning module Core (67)
-[2016.10.24-18.10.37:429][409]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
-[2016.10.24-18.10.37:429][409]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2016.10.24-18.10.37:429][409]LogDirectoryWatcher: A directory notification for 'D:/RollOut/Content/' was aborted.
-[2016.10.24-18.10.37:429][409]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2016.10.24-18.10.37:431][409]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
-[2016.10.24-18.10.37:607][409]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
-[2016.10.24-18.10.37:607][409]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
-[2016.10.24-18.10.37:607][409]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
-[2016.10.24-18.10.37:607][409]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
-[2016.10.24-18.10.37:681][409]LogDerivedDataCache: Shutdown
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module Messaging (41)
-[2016.10.24-18.10.37:681][409]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module GearVR (21)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
-[2016.10.24-18.10.37:682][409]LogOnline:Display: Unloading online subsystem: NULL
-[2016.10.24-18.10.37:682][409]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2016.10.24-18.10.37:682][409]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2016.10.24-18.10.37:682][409]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B47268001-4EE8-F336-6E6E-E3AB094CC56F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=d25bd4c345f60ec0b926039496e587d7%7Cdad4cbe26d0141aab9c31ba1fb954ba7%7C135e3a73-7ec2-4a86-9d9f-fe44a03daa16&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2016.10.24-18.10.37:696][409]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2016.10.24-18.10.37:697][409]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.10.24-18.10.37:697][409]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.10.24-18.10.37:697][409]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.10.24-18.10.37:697][409]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.10.24-18.10.37:699][409]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.10.24-18.10.37:699][409]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.10.24-18.10.37:699][409]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.10.24-18.10.37:699][409]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.10.24-18.10.37:699][409]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.10.24-18.10.37:699][409]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.10.24-18.10.37:699][409]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.10.24-18.10.37:699][409]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.10.24-18.10.37:699][409]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.10.24-18.10.37:699][409]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.10.24-18.10.37:700][409]LogExit: Exiting.
-[2016.10.24-18.10.37:711][409]Log file closed, 10/24/16 11:10:37
+[2016.10.25-21.44.07:267][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.25-21.44.07:267][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.25-21.44.07:277][  0]LogInit: Computer: DESKTOP-0VG6TED
+[2016.10.25-21.44.07:277][  0]LogInit: User: Tellie689
+[2016.10.25-21.44.07:277][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.10.25-21.44.07:277][  0]LogInit: High frequency timer resolution =3.609374 MHz
+[2016.10.25-21.44.07:277][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.10.25-21.44.07:277][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.25-21.44.07:277][  0]LogMemory: Process Physical Memory: 256.39 MB used, 256.39 MB peak
+[2016.10.25-21.44.07:277][  0]LogMemory: Process Virtual Memory: 262.81 MB used, 262.81 MB peak
+[2016.10.25-21.44.07:277][  0]LogMemory: Physical Memory: 4237.14 MB used, 8144.07 MB total
+[2016.10.25-21.44.07:277][  0]LogMemory: Virtual Memory: 624.41 MB used, 134217728.00 MB total
+[2016.10.25-21.44.07:307][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.25-21.44.07:971][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.25-21.44.08:000][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
+[2016.10.25-21.44.08:000][  0]LogD3D11RHI:       2016/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.25-21.44.08:001][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.25-21.44.08:001][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.25-21.44.08:001][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.25-21.44.08:006][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.25-21.44.08:006][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.25-21.44.08:006][  0]LogWindows: EnumDisplayDevices:
+[2016.10.25-21.44.08:006][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
+[2016.10.25-21.44.08:006][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2016.10.25-21.44.08:007][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2016.10.25-21.44.08:007][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2016.10.25-21.44.08:007][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.10.25-21.44.08:007][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
+[2016.10.25-21.44.08:007][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2016.10.25-21.44.08:007][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2016.10.25-21.44.08:007][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.25-21.44.08:024][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.25-21.44.08:036][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.10.25-21.44.08:036][  0]LogShaderCompilers: Guid format shader working directory is 24 characters bigger than the processId version (D:/GitHub/RollOut/RollOut/Intermediate/Shaders/WorkingDirectory/3224/).
+[2016.10.25-21.44.08:036][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TELLIE~1/AppData/Local/Temp/UnrealShaderWorkingDir/5951A7044F5B26D3B42163B2EF809846/'.
+[2016.10.25-21.44.08:036][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.25-21.44.09:054][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.25-21.44.09:061][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.25-21.44.09:069][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.25-21.44.09:076][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.25-21.44.09:083][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.25-21.44.09:089][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.25-21.44.09:095][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.25-21.44.09:101][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.25-21.44.09:106][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.25-21.44.09:113][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.25-21.44.09:119][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.25-21.44.09:131][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.25-21.44.09:131][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.25-21.44.09:133][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.25-21.44.09:151][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.25-21.44.09:156][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.25-21.44.09:162][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.10.25-21.44.09:169][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.25-21.44.09:174][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.25-21.44.09:180][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.25-21.44.09:180][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.25-21.44.09:245][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.25-21.44.09:339][  0]LogDerivedDataCache: Loaded boot cache 0.09s 62MB C:/Users/Tellie689/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.25-21.44.09:339][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tellie689/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.10.25-21.44.09:339][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/RollOut/RollOut/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.25-21.44.09:339][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.25-21.44.09:339][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/RollOut/RollOut/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.25-21.44.09:339][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.25-21.44.09:356][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.25-21.44.09:368][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tellie689/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.25-21.44.09:564][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.25-21.44.09:567][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.25-21.44.09:652][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.25-21.44.09:652][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.25-21.44.09:652][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.25-21.44.09:715][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.10.25-21.44.10:067][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: rollout, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2348843349
+[2016.10.25-21.44.10:104][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.10.25-21.44.10:136][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.030467 seconds
+[2016.10.25-21.44.10:144][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.10.25-21.44.10:144][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.10.25-21.44.10:144][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.25-21.44.10:172][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.25-21.44.10:389][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.25-21.44.10:389][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.25-21.44.10:955][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.10.25-21.44.10:973][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.25-21.44.11:204][  0]SourceControl: Info Source control is disabled
+[2016.10.25-21.44.11:493][  0]LogEngine: Initializing Engine...
+[2016.10.25-21.44.11:493][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.10.25-21.44.11:641][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.10.25-21.44.11:652][  0]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.25-21.44.11:659][  0]LogInit: FAudioDevice initialized.
+[2016.10.25-21.44.11:703][  0]LogDerivedDataCache: Saved boot cache 0.04s 62MB C:/Users/Tellie689/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.25-21.44.11:715][  0]LogInit: Texture streaming: Enabled
+[2016.10.25-21.44.11:744][  0]LogInit: Transaction tracking system initialized
+[2016.10.25-21.44.11:766][  0]BlueprintLog: New page: Editor Load
+[2016.10.25-21.44.11:832][  0]LocalizationService: Info Localization service is disabled
+[2016.10.25-21.44.11:903][  0]LogConsoleResponse:Display: 
+[2016.10.25-21.44.12:020][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.10.25-21.44.12:020][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.25-21.44.12:161][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RollOut/RollOut/Content/' took 0.02s
+[2016.10.25-21.44.12:168][  0]Cmd: MAP LOAD FILE="D:/GitHub/RollOut/RollOut/Content/RollOut/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.25-21.44.12:187][  0]LightingResults: New page: Lighting Build
+[2016.10.25-21.44.12:189][  0]MapCheck: New page: Map Check
+[2016.10.25-21.44.12:189][  0]LightingResults: New page: Lighting Build
+[2016.10.25-21.44.12:410][  0]LogAIModule: Creating AISystem for world Level1
+[2016.10.25-21.44.12:415][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.25-21.44.12:416][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.25-21.44.12:451][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.485ms to complete.
+[2016.10.25-21.44.12:451][  0]LogFileHelpers: Loading map 'Level1' took 0.283
+[2016.10.25-21.44.12:572][  0]Log
