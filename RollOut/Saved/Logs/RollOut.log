@@ -240,4 +240,454 @@ LogInit: Object subsystem initialized
 [2016.10.25-21.44.12:416][  0]Cmd: MAP CHECKDEP NOCLEARLOG
 [2016.10.25-21.44.12:451][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.485ms to complete.
 [2016.10.25-21.44.12:451][  0]LogFileHelpers: Loading map 'Level1' took 0.283
-[2016.10.25-21.44.12:572][  0]Log
+[2016.10.25-21.44.12:572][  0]LogCollectionManager: Loaded 1 collections in 0.001515 seconds
+[2016.10.25-21.44.12:610][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RollOut/RollOut/Saved/Collections/' took 0.01s
+[2016.10.25-21.44.12:610][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RollOut/RollOut/Content/Developers/Tellie689/Collections/' took 0.01s
+[2016.10.25-21.44.12:610][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RollOut/RollOut/Content/Collections/' took 0.01s
+[2016.10.25-21.44.12:610][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
+[2016.10.25-21.44.12:610][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.10.25-21.44.12:619][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2141 classes and 415 folders.
+[2016.10.25-21.44.12:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.25-21.44.12:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.25-21.44.12:622][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.10.25-21.44.12:626][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.10.25-21.44.12:667][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.10.25-21.44.12:670][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.10.25-21.44.12:718][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.25-21.44.12:738][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.25-21.44.12:768][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.10.25-21.44.12:768][  0]LogLoad: (Engine Initialization) Total time: 6.42 seconds
+[2016.10.25-21.44.12:768][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2016.10.25-21.44.12:768][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.25-21.44.12:768][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.25-21.44.12:777][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.25-21.44.12:777][  0]LogOcInput: OculusInput pre-init called
+[2016.10.25-21.44.12:795][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.25-21.44.12:918][  0]LogRenderer: Reallocating scene render targets to support 772x324 (Frame:2).
+[2016.10.25-21.44.12:989][  1]LogAssetRegistry: Asset discovery search completed in 2.9073 seconds
+[2016.10.25-21.44.12:989][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000007 seconds (found 0 objects)
+[2016.10.25-21.44.12:989][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000024 seconds (updated 0 objects)
+[2016.10.25-21.44.47:147][345]SourceControl:Error: Error Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2016.10.25-21.46.08:548][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.25-21.46.08:549][373]PIE: New page: PIE session: Level1 (Oct 25, 2016, 6:46:08 AM)
+[2016.10.25-21.46.08:549][373]LogPlayLevel: Creating play world package: /Game/RollOut/Maps/UEDPIE_0_Level1
+[2016.10.25-21.46.08:552][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002229s)
+[2016.10.25-21.46.08:552][373]LogAIModule: Creating AISystem for world Level1
+[2016.10.25-21.46.08:553][373]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2016.10.25-21.46.08:553][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollOut/Maps/Level1.Level1 to /Game/RollOut/Maps/UEDPIE_0_Level1.Level1 (0.003453s)
+[2016.10.25-21.46.08:573][373]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.25-21.46.08:576][373]LogInit: FAudioDevice initialized.
+[2016.10.25-21.46.08:637][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:637][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/WallMasterBP.uasset.
+[2016.10.25-21.46.08:637][373]LoadErrors:Error: Error /Game/RollOut/Blueprints/Walls/MasterBPs/WallMasterBP : Can't find file for asset. /Game/RollOut/RollOutGamePlay/RollOutCameraPawnController
+[2016.10.25-21.46.08:638][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:638][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/WallMasterBP.uasset.
+[2016.10.25-21.46.08:639][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:639][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/HUD/IF_RollOutHUD.uasset.
+[2016.10.25-21.46.08:639][373]LoadErrors:Error: Error /Game/RollOut/Blueprints/HUD/IF_RollOutHUD : Can't find file for asset. /Game/RollOut/RollOutGamePlay/RollOutCameraPawnController
+[2016.10.25-21.46.08:639][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:639][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/HUD/IF_RollOutHUD.uasset.
+[2016.10.25-21.46.08:639][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:639][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/HUD/IF_RollOutHUD.uasset.
+[2016.10.25-21.46.08:639][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:639][373]LoadErrors: Info Failed to load /Game/RollOut/RollOutGamePlay/RollOutCameraPawnController.RollOutCameraPawnController_C Referenced by WallMasterBP
+[2016.10.25-21.46.08:639][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/HUD/IF_RollOutHUD.uasset.
+[2016.10.25-21.46.08:654][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:654][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Construction/ConstructionManagerBP.uasset.
+[2016.10.25-21.46.08:654][373]LoadErrors:Error: Error /Game/RollOut/Blueprints/Construction/ConstructionManagerBP : Can't find file for asset. /Game/RollOut/RollOutGamePlay/RollOutCameraPawnController
+[2016.10.25-21.46.08:656][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:656][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Construction/ConstructionManagerBP.uasset.
+[2016.10.25-21.46.08:657][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:657][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/RollOutGamePlay/RollOutCameraPawnController.uasset.
+[2016.10.25-21.46.08:657][373]LoadErrors:Error: Error /Game/RollOut/Blueprints/RollOutGamePlay/RollOutCameraPawnController : Can't find file for asset. /Game/RollOut/RollOutGamePlay/RollOutCameraPawnController
+[2016.10.25-21.46.08:657][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:657][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/RollOutGamePlay/RollOutCameraPawnController.uasset.
+[2016.10.25-21.46.08:659][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:659][373]LoadErrors: Info Failed to load /Game/RollOut/RollOutGamePlay/RollOutCameraPawnController.RollOutCameraPawnController_C Referenced by K2Node_SpawnActorFromClass_1
+[2016.10.25-21.46.08:659][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/RollOutGamePlay/RollOutCameraPawnController.uasset.
+[2016.10.25-21.46.08:691][373]LogLinker:Warning: Can't find file '/Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP'
+[2016.10.25-21.46.08:691][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/HUD/MainUI_HUD.uasset.
+[2016.10.25-21.46.08:691][373]LoadErrors:Error: Error /Game/RollOut/Blueprints/HUD/MainUI_HUD : Can't find file for asset. /Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP
+[2016.10.25-21.46.08:712][373]LogLinker:Warning: Can't find file '/Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP'
+[2016.10.25-21.46.08:713][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/HUD/MainUI_HUD.uasset.
+[2016.10.25-21.46.08:715][373]LogLinker:Warning: Can't find file '/Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP'
+[2016.10.25-21.46.08:715][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset.
+[2016.10.25-21.46.08:715][373]LoadErrors:Error: Error /Game/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP : Can't find file for asset. /Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP
+[2016.10.25-21.46.08:715][373]LogLinker:Warning: Can't find file '/Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP'
+[2016.10.25-21.46.08:715][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset.
+[2016.10.25-21.46.08:715][373]LogLinker:Warning: Can't find file '/Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP'
+[2016.10.25-21.46.08:716][373]LoadErrors: Info Failed to load /Game/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.GhostWalBP_C Referenced by K2Node_Message_86
+[2016.10.25-21.46.08:716][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/Blueprints/Walls/Angled/AngledWallChildBP' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset.
+[2016.10.25-21.46.08:722][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:722][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Libraries/FunctionLibrary.uasset.
+[2016.10.25-21.46.08:722][373]LoadErrors:Error: Error /Game/RollOut/Libraries/FunctionLibrary : Can't find file for asset. /Game/RollOut/RollOutGamePlay/RollOutCameraPawnController
+[2016.10.25-21.46.08:723][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:723][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Libraries/FunctionLibrary.uasset.
+[2016.10.25-21.46.08:723][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:724][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset.
+[2016.10.25-21.46.08:724][373]LoadErrors:Error: Error /Game/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP : Can't find file for asset. /Game/RollOut/RollOutGamePlay/RollOutCameraPawnController
+[2016.10.25-21.46.08:724][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:724][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset.
+[2016.10.25-21.46.08:724][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:724][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset.
+[2016.10.25-21.46.08:724][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:724][373]LoadErrors: Info Failed to load /Game/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.GhostWalBP_C Referenced by K2Node_FunctionEntry_0
+[2016.10.25-21.46.08:724][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset.
+[2016.10.25-21.46.08:725][373]LogLinker:Warning: Can't find file '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController'
+[2016.10.25-21.46.08:725][373]LogLinker:Warning: Can't find file for asset '/Game/RollOut/RollOutGamePlay/RollOutCameraPawnController' while loading D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset.
+[2016.10.25-21.46.08:951][373]LogWorld: Game class is 'RollOutGameMode_C'
+[2016.10.25-21.46.08:953][373]LogWorld: Bringing World /Game/RollOut/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.25-14.46.08
+[2016.10.25-21.46.08:953][373]LogWorld: Bringing up level for play took: 0.001112
+[2016.10.25-21.46.08:956][373]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.10.25-21.46.08:956][373]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.25-21.46.08:956][373]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.25-21.46.08:956][373]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.25-21.46.08:958][373]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.25-21.46.08:961][373]PIE: Info Play in editor start time for /Game/RollOut/Maps/UEDPIE_0_Level1 -0.168
+[2016.10.25-21.46.08:987][373]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:1908).
+[2016.10.25-21.46.10:071][499]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2016.10.25-21.46.10:071][499]LogScript:Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	GhostWalBP_C /Game/RollOut/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GhostWalBP_C_0
+	Function /Game/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.GhostWalBP_C:ExecuteUbergraph_GhostWalBP:059E
+[2016.10.25-21.46.10:071][499]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue from function: 'ExecuteUbergraph_GhostWalBP' from node: DestroyActor in graph: EventGraph in object: GhostWalBP with description: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+[2016.10.25-21.46.20:598][719]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2016.10.25-21.47.24:732][829]BlueprintLog: New page: Compile GhostWalBP
+[2016.10.25-21.47.25:894][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP" FILE="D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset" SILENT=true
+[2016.10.25-21.47.25:993][945]LogSavePackage: Save=74.10ms
+[2016.10.25-21.47.25:993][945]LogSavePackage: Moving 'D:/GitHub/RollOut/RollOut/Saved/GhostWalBP21F693274D7975064B49BABF04B94B60.tmp' to 'D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset'
+[2016.10.25-21.47.25:994][945]LogSavePackage:Display: Finished SavePackage D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset
+[2016.10.25-21.47.57:974][823]BlueprintLog: New page: Compile GhostWalBP
+[2016.10.25-21.47.58:763][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP" FILE="D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset" SILENT=true
+[2016.10.25-21.47.58:839][897]LogSavePackage: Save=73.44ms
+[2016.10.25-21.47.58:839][897]LogSavePackage: Moving 'D:/GitHub/RollOut/RollOut/Saved/GhostWalBPCDF5C8124B1FEBD4834AC3B80DBE638E.tmp' to 'D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset'
+[2016.10.25-21.47.58:841][897]LogSavePackage:Display: Finished SavePackage D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.uasset
+[2016.10.25-21.48.00:657][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.25-21.48.00:657][112]PIE: New page: PIE session: Level1 (Oct 25, 2016, 6:48:00 AM)
+[2016.10.25-21.48.00:657][112]LogPlayLevel: Creating play world package: /Game/RollOut/Maps/UEDPIE_0_Level1
+[2016.10.25-21.48.00:659][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002067s)
+[2016.10.25-21.48.00:660][112]LogAIModule: Creating AISystem for world Level1
+[2016.10.25-21.48.00:660][112]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2016.10.25-21.48.00:660][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollOut/Maps/Level1.Level1 to /Game/RollOut/Maps/UEDPIE_0_Level1.Level1 (0.003139s)
+[2016.10.25-21.48.00:687][112]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.25-21.48.00:690][112]LogInit: FAudioDevice initialized.
+[2016.10.25-21.48.00:731][112]LogWorld: Game class is 'RollOutGameMode_C'
+[2016.10.25-21.48.00:733][112]LogWorld: Bringing World /Game/RollOut/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.25-14.48.00
+[2016.10.25-21.48.00:734][112]LogWorld: Bringing up level for play took: 0.001995
+[2016.10.25-21.48.00:735][112]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.25-21.48.00:735][112]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.25-21.48.00:735][112]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.25-21.48.00:736][112]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.25-21.48.00:741][112]PIE: Info Play in editor start time for /Game/RollOut/Maps/UEDPIE_0_Level1 -0.389
+[2016.10.25-21.53.13:254][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.25-21.53.13:254][428]PIE: New page: PIE session: Level1 (Oct 25, 2016, 6:53:13 AM)
+[2016.10.25-21.53.13:254][428]LogPlayLevel: Creating play world package: /Game/RollOut/Maps/UEDPIE_0_Level1
+[2016.10.25-21.53.13:257][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002998s)
+[2016.10.25-21.53.13:257][428]LogAIModule: Creating AISystem for world Level1
+[2016.10.25-21.53.13:258][428]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2016.10.25-21.53.13:258][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollOut/Maps/Level1.Level1 to /Game/RollOut/Maps/UEDPIE_0_Level1.Level1 (0.004148s)
+[2016.10.25-21.53.13:285][428]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.25-21.53.13:289][428]LogInit: FAudioDevice initialized.
+[2016.10.25-21.53.13:331][428]LogWorld: Game class is 'RollOutGameMode_C'
+[2016.10.25-21.53.13:333][428]LogWorld: Bringing World /Game/RollOut/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.25-14.53.13
+[2016.10.25-21.53.13:333][428]LogWorld: Bringing up level for play took: 0.001738
+[2016.10.25-21.53.13:334][428]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.25-21.53.13:334][428]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.25-21.53.13:334][428]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.25-21.53.13:335][428]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.25-21.53.13:341][428]PIE: Info Play in editor start time for /Game/RollOut/Maps/UEDPIE_0_Level1 0.212
+[2016.10.25-21.53.18:507][931]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2016.10.25-21.53.18:507][931]LogScript:Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	GhostWalBP_C /Game/RollOut/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GhostWalBP_C_0
+	Function /Game/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.GhostWalBP_C:ExecuteUbergraph_GhostWalBP:059E
+[2016.10.25-21.53.18:507][931]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue from function: 'ExecuteUbergraph_GhostWalBP' from node: DestroyActor in graph: EventGraph in object: GhostWalBP with description: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+[2016.10.25-21.53.20:126][ 92]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2016.10.25-21.53.20:126][ 92]LogScript:Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	GhostWalBP_C /Game/RollOut/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.GhostWalBP_C_0
+	Function /Game/RollOut/Blueprints/Walls/MasterBPs/GhostWalBP.GhostWalBP_C:ExecuteUbergraph_GhostWalBP:059E
+[2016.10.25-21.53.20:126][ 92]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue from function: 'ExecuteUbergraph_GhostWalBP' from node: DestroyActor in graph: EventGraph in object: GhostWalBP with description: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+[2016.10.25-21.54.22:825][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Blueprints/Walls/Angle/AngledWallChildBP" FILE="D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/Angle/AngledWallChildBP.uasset" SILENT=true
+[2016.10.25-21.54.22:844][621]LogSavePackage: Save=9.59ms
+[2016.10.25-21.54.22:844][621]LogSavePackage: Moving 'D:/GitHub/RollOut/RollOut/Saved/AngledWallChildBPDF903A3B4FF3D79AAF8057BCA5482053.tmp' to 'D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/Angle/AngledWallChildBP.uasset'
+[2016.10.25-21.54.22:845][621]LogSavePackage:Display: Finished SavePackage D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/Walls/Angle/AngledWallChildBP.uasset
+[2016.10.25-21.54.26:227][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.25-21.54.27:173][118]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.25-21.54.44:533][160]BlueprintLog: New page: Compile MainUI_HUD
+[2016.10.25-21.54.45:451][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollOut/Blueprints/HUD/MainUI_HUD" FILE="D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/HUD/MainUI_HUD.uasset" SILENT=true
+[2016.10.25-21.54.45:473][258]LogSavePackage: Save=14.04ms
+[2016.10.25-21.54.45:473][258]LogSavePackage: Moving 'D:/GitHub/RollOut/RollOut/Saved/MainUI_HUDCF035AFB47F6A768A2CF56A0D85962C8.tmp' to 'D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/HUD/MainUI_HUD.uasset'
+[2016.10.25-21.54.45:475][258]LogSavePackage:Display: Finished SavePackage D:/GitHub/RollOut/RollOut/Content/RollOut/Blueprints/HUD/MainUI_HUD.uasset
+[2016.10.25-21.54.47:382][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.25-21.54.47:382][485]PIE: New page: PIE session: Level1 (Oct 25, 2016, 6:54:47 AM)
+[2016.10.25-21.54.47:382][485]LogPlayLevel: Creating play world package: /Game/RollOut/Maps/UEDPIE_0_Level1
+[2016.10.25-21.54.47:384][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002003s)
+[2016.10.25-21.54.47:385][485]LogAIModule: Creating AISystem for world Level1
+[2016.10.25-21.54.47:385][485]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2016.10.25-21.54.47:385][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollOut/Maps/Level1.Level1 to /Game/RollOut/Maps/UEDPIE_0_Level1.Level1 (0.002955s)
+[2016.10.25-21.54.47:417][485]LogInit: XAudio2 using 'SONY TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.25-21.54.47:420][485]LogInit: FAudioDevice initialized.
+[2016.10.25-21.54.47:456][485]LogWorld: Game class is 'RollOutGameMode_C'
+[2016.10.25-21.54.47:458][485]LogWorld: Bringing World /Game/RollOut/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.10.25-14.54.47
+[2016.10.25-21.54.47:458][485]LogWorld: Bringing up level for play took: 0.001539
+[2016.10.25-21.54.47:459][485]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.25-21.54.47:459][485]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.25-21.54.47:459][485]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.25-21.54.47:460][485]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.25-21.54.47:462][485]PIE: Info Play in editor start time for /Game/RollOut/Maps/UEDPIE_0_Level1 0.333
+[2016.10.25-21.55.44:672][271]Cmd: QUIT_EDITOR
+[2016.10.25-21.55.45:340][271]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.25-21.55.45:391][271]LogExit: Preparing to exit.
+[2016.10.25-21.55.46:382][271]LogExit: Editor shut down
+[2016.10.25-21.55.46:382][271]LogExit: Transaction tracking system shut down
+[2016.10.25-21.55.46:496][271]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.25-21.55.46:496][271]LogExit: Object subsystem successfully closed.
+[2016.10.25-21.55.46:511][271]LogD3D11RHI: Shutdown
+[2016.10.25-21.55.46:512][271]LogD3D11RHI: CleanupD3DDevice
+[2016.10.25-21.55.46:579][271]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.25-21.55.46:588][271]LogModuleManager: Shutting down and abandoning module SequencerWidgets (238)
+[2016.10.25-21.55.46:588][271]LogModuleManager: Shutting down and abandoning module BlueprintGraph (237)
+[2016.10.25-21.55.46:588][271]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (236)
+[2016.10.25-21.55.46:588][271]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (235)
+[2016.10.25-21.55.46:588][271]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (234)
+[2016.10.25-21.55.46:588][271]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (233)
+[2016.10.25-21.55.46:588][271]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2016.10.25-21.55.46:588][271]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
+[2016.10.25-21.55.46:588][271]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
+[2016.10.25-21.55.46:588][271]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
+[2016.10.25-21.55.46:588][271]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
+[2016.10.25-21.55.46:589][271]LogDirectoryWatcher: A directory notification for 'D:/GitHub/RollOut/RollOut/Content/Collections/' was aborted.
+[2016.10.25-21.55.46:589][271]LogDirectoryWatcher: A directory notification for 'D:/GitHub/RollOut/RollOut/Content/Developers/Tellie689/Collections/' was aborted.
+[2016.10.25-21.55.46:589][271]LogDirectoryWatcher: A directory notification for 'D:/GitHub/RollOut/RollOut/Saved/Collections/' was aborted.
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2016.10.25-21.55.46:589][271]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module Media (206)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2016.10.25-21.55.46:590][271]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2016.10.25-21.55.47:114][271]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2016.10.25-21.55.47:114][271]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2016.10.25-21.55.47:114][271]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2016.10.25-21.55.47:114][271]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2016.10.25-21.55.47:114][271]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2016.10.25-21.55.47:114][271]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2016.10.25-21.55.47:114][271]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2016.10.25-21.55.47:114][271]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2016.10.25-21.55.47:114][271]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2016.10.25-21.55.47:115][271]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2016.10.25-21.55.47:115][271]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2016.10.25-21.55.47:115][271]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2016.10.25-21.55.47:115][271]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2016.10.25-21.55.47:115][271]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2016.10.25-21.55.47:115][271]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2016.10.25-21.55.47:115][271]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2016.10.25-21.55.47:115][271]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2016.10.25-21.55.47:115][271]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2016.10.25-21.55.47:115][271]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2016.10.25-21.55.47:116][271]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2016.10.25-21.55.47:116][271]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2016.10.25-21.55.47:116][271]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2016.10.25-21.55.47:116][271]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2016.10.25-21.55.47:116][271]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2016.10.25-21.55.47:116][271]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2016.10.25-21.55.47:116][271]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2016.10.25-21.55.47:158][271]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2016.10.25-21.55.47:158][271]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2016.10.25-21.55.47:158][271]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2016.10.25-21.55.47:158][271]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2016.10.25-21.55.47:158][271]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2016.10.25-21.55.47:158][271]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2016.10.25-21.55.47:158][271]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2016.10.25-21.55.47:159][271]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2016.10.25-21.55.47:159][271]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2016.10.25-21.55.47:174][271]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2016.10.25-21.55.47:174][271]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2016.10.25-21.55.47:176][271]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2016.10.25-21.55.47:329][271]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2016.10.25-21.55.47:330][271]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.10.25-21.55.47:331][271]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.10.25-21.55.47:331][271]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.10.25-21.55.47:332][271]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2016.10.25-21.55.47:333][271]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2016.10.25-21.55.47:334][271]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2016.10.25-21.55.47:434][271]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2016.10.25-21.55.47:534][271]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.10.25-21.55.47:534][271]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.10.25-21.55.47:534][271]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.10.25-21.55.47:534][271]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.10.25-21.55.47:535][271]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.10.25-21.55.47:540][271]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.10.25-21.55.47:540][271]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.10.25-21.55.47:540][271]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.10.25-21.55.47:540][271]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.10.25-21.55.47:540][271]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.10.25-21.55.47:540][271]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.10.25-21.55.47:540][271]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.10.25-21.55.47:541][271]LogDirectoryWatcher: A directory notification for 'D:/GitHub/RollOut/RollOut/Content/' was aborted.
+[2016.10.25-21.55.47:541][271]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.10.25-21.55.47:541][271]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.10.25-21.55.47:715][271]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.10.25-21.55.47:715][271]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.10.25-21.55.47:715][271]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.10.25-21.55.47:715][271]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.10.25-21.55.47:752][271]LogDerivedDataCache: Shutdown
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.10.25-21.55.47:752][271]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.10.25-21.55.47:753][271]LogOnline:Display: Unloading online subsystem: NULL
+[2016.10.25-21.55.47:753][271]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.10.25-21.55.47:753][271]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.10.25-21.55.47:753][271]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B599CFF35-4244-A2D2-4ACD-05A26F6F522B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=d25bd4c345f60ec0b926039496e587d7%7Cdad4cbe26d0141aab9c31ba1fb954ba7%7C135e3a73-7ec2-4a86-9d9f-fe44a03daa16&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.10.25-21.55.47:759][271]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.10.25-21.55.47:760][271]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.25-21.55.47:760][271]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.25-21.55.47:760][271]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.25-21.55.47:760][271]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.25-21.55.47:762][271]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.25-21.55.47:762][271]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.25-21.55.47:762][271]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.25-21.55.47:762][271]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.25-21.55.47:762][271]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.25-21.55.47:762][271]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.25-21.55.47:762][271]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.25-21.55.47:762][271]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.25-21.55.47:762][271]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.25-21.55.47:762][271]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.25-21.55.47:764][271]LogExit: Exiting.
+[2016.10.25-21.55.47:765][271]Log file closed, 10/25/16 14:55:47
